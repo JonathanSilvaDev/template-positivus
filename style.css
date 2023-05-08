@@ -1,0 +1,40 @@
+* {
+padding: 0;
+margin: auto;
+box-sizing: border-box;
+}
+
+.logo{
+    position: relative;
+
+}
+
+/* header {
+  
+} */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1240px;
+    max-height: 10x;
+    background-color: aquamarine;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    max-width: 620px;
+
+}
+
+.textoEsquerda {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 331px;
+    height: 481px;
+    background-color: brown;
+}
