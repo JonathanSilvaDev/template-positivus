@@ -24,6 +24,7 @@ box-sizing: border-box;
 
 .button {
     display: flex;
+	flex-direction: row;
     justify-content: space-between;
     background-color: aqua;
     max-width: 620px;
