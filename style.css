@@ -161,8 +161,9 @@ width: 1064px;
 .ser1 {
     display: flex;
     justify-content: space-around;
-      width: 1064px;
+    width: 1064px;
     height: 320px;
+    margin-bottom: 40px;
     
 }
 
@@ -171,6 +172,7 @@ width: 1064px;
     justify-content: space-around;
     width: 1064px;
     height: 320px;
+    margin-bottom: 40px;
 }
 
 .ser3 {
@@ -178,6 +180,7 @@ width: 1064px;
     justify-content: space-around;
     width: 1064px;
     height: 320px;
+    margin-bottom: 40px;
 }
 
 .servcard1{
@@ -191,6 +194,7 @@ width: 1064px;
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 50px;
+    margin-right: 40px;
     
     
 }
@@ -220,6 +224,7 @@ width: 1064px;
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 50px;
+    margin-right: 40px;
     
 
 }
@@ -250,6 +255,7 @@ width: 1064px;
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 50px;
+    margin-right: 40px;
     
 
 
@@ -420,7 +426,7 @@ width: 1064px;
 
 .CaseStudies {
    
-    margin-top: 80px;
+    margin-top: 40px;
     width: 1064px;
     display: flex;
     align-items: start;
@@ -453,3 +459,64 @@ width: 1064px;
     font-size: 18px;
     line-height: 23px;
 }
+
+.boxCases {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    width: 1234px;
+    height: 326px;
+    background-color: #191A23;
+    border-radius: 45px;
+
+
+}
+
+.boxContainer {
+    background-color: #191A23;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1114px;
+    height: 186px;
+}
+
+.case1, .case2, .case3 {
+    background-color: #191A23;
+    width: 286px;
+    height: 163px;
+}
+
+.case2, .case3 {
+    border-left: #FFF solid 1px;
+    width: 350px;
+    height: 163px;
+    padding-left: -64px;
+
+}
+
+.case1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.casep1 {
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.casep2 {
+    color:#B9FF66;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+    
+    
+}
+
