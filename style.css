@@ -58,6 +58,7 @@ ul {
     padding: 100px 0px 100px 0px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .texts {
@@ -115,6 +116,7 @@ ul {
     filter: saturate(0);
 }
 
+
 .serv {
    
     width: 1064px;
@@ -153,15 +155,16 @@ ul {
 .servicesCard {
 
 display: flex;
+justify-content: space-between;
 flex-direction: column;
-width: 1064px;
-
+width: 1151px;
+margin: auto;
 }
 
 .ser1 {
     display: flex;
     justify-content: space-around;
-    width: 1064px;
+    width: 1151px;
     height: 320px;
     margin-bottom: 40px;
     
@@ -170,7 +173,7 @@ width: 1064px;
 .ser2 {
     display: flex;
     justify-content: space-around;
-    width: 1064px;
+    width: 1151px;
     height: 320px;
     margin-bottom: 40px;
 }
@@ -178,14 +181,14 @@ width: 1064px;
 .ser3 {
     display: flex;
     justify-content: space-around;
-    width: 1064px;
+    width: 1151px;
     height: 320px;
     margin-bottom: 40px;
 }
 
 .servcard1{
 
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #F3F3F3;
     border-radius: 45px;
@@ -201,7 +204,7 @@ width: 1064px;
 
 .servcard2 {
     
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #B9FF66;
     border-radius: 45px;
@@ -215,7 +218,7 @@ width: 1064px;
 
 .servcard3 {
 
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #000000;
     border-radius: 45px;
@@ -231,7 +234,7 @@ width: 1064px;
 
 .servcard4 {
 
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #F3F3F3;
     border-radius: 45px;
@@ -246,7 +249,7 @@ width: 1064px;
 
 .servcard5 {
 
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #B9FF66;
     border-radius: 45px;
@@ -262,7 +265,7 @@ width: 1064px;
 }
 
 .servcard6 {
-    width: 512px;
+    width: 535px;
     height: 310px;
     background-color: #000000;
     border-radius: 45px;
@@ -466,7 +469,7 @@ width: 1064px;
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
-    width: 1234px;
+    width: 1151px;
     height: 326px;
     background-color: #191A23;
     border-radius: 45px;
