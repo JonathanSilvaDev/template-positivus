@@ -468,7 +468,7 @@ margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     width: 1151px;
     height: 326px;
     background-color: #191A23;
@@ -521,5 +521,26 @@ margin: auto;
     margin-top: 50px;
     
     
+}
+
+.our-working-process {
+
+    width: 1064px;
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    height: 51px;
+
+}
+
+.our-working-process > h2 {
+
+    background-color: #B9FF66;
+    padding: 0px 7px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 51px;
 }
 
