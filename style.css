@@ -7,6 +7,7 @@
 body {
     padding: 0px 100px 0px 100px;
 }
+
 .buttons {
     display: flex;
     justify-content: space-around;
@@ -484,6 +485,7 @@ margin: auto;
     align-items: center;
     width: 1114px;
     height: 186px;
+    
 }
 
 .case1, .case2, .case3 {
@@ -510,7 +512,10 @@ margin: auto;
     text-align: justify;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    line-height: 23px;
+    
 }
 
 .casep2 {
@@ -519,6 +524,9 @@ margin: auto;
     font-weight: 400;
     font-size: 20px;
     margin-top: 50px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    line-height: 28px;
     
     
 }
@@ -544,3 +552,89 @@ margin: auto;
     line-height: 51px;
 }
 
+.our-working-process > p {
+
+    text-align: justify;
+    width: 580px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.owp1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1151px;
+    height: 279px;
+    background-color: #B9FF66;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+}
+
+.element1 {
+    width: 1117px;
+    height: 77px;
+}
+
+#p-element1 {
+    position: absolute;
+    justify-content: left;
+    margin-left: 60px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+}
+
+#p-element2 {
+    position: absolute;
+    margin: 16px 0px 0px 140px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+
+#icon-our {
+    margin-right: 60px;
+}
+
+.content-el1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1117px;
+}
+
+
+
+.element2 > hr{
+    width: 996px;
+    border: solid black 1px;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.element3 {
+    width: 1117px;
+    height: 60px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.element3 > p {
+    margin-right: 60px;
+    margin-left: 60px;
+}
