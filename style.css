@@ -45,6 +45,11 @@ ul {
     border: solid black 1px;
     justify-content: center;
     align-items: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
        
 }
 
@@ -94,7 +99,8 @@ ul {
     font-size: 20px;
     line-height: 28px;
     cursor: pointer;
-    text-align: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
     
 }
 
@@ -515,6 +521,7 @@ margin: auto;
     font-family: 'Space Grotesk';
     font-style: normal;
     line-height: 23px;
+    padding-left: 30px;
     
 }
 
@@ -527,8 +534,21 @@ margin: auto;
     font-family: 'Space Grotesk';
     font-style: normal;
     line-height: 28px;
+    padding-left: 30px;
     
     
+}
+
+.casep3-1{
+    padding-right: 30px;
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    line-height: 23px;
+    padding-left: 30px;
 }
 
 .our-working-process {
@@ -620,6 +640,7 @@ margin: auto;
     justify-content: space-between;
     width: 1117px;
 }
+
 
 
 
@@ -716,8 +737,12 @@ margin: auto;
 
 .container-team {
     
+    margin: auto;
     height: 725px;
-    display: flex;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 40px;
+    grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     
 }
@@ -726,7 +751,7 @@ margin: auto;
 .card1 {
 
     margin-bottom: 20px;
-    width: 363px;
+    width: 353px;
     height: 831;
     background: #FFFFFF;
     border: 1px solid #191A23;
@@ -768,7 +793,7 @@ margin: auto;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 23px;
     text-align: start;
 }
@@ -812,27 +837,33 @@ margin: auto;
 
 
 #btn-see {
-    
-    margin-top: 10px;
-    position: absolute;
-    justify-content: right;
+    display: flex;
+    justify-content: end;
+    width: 1151px;
+    height: 68px;
+}
+
+
+.btn-see-all {
+
+    margin-top: 40px;
+    display: flex;
     width: 231px;
     height: 68px;
     border-radius: 14px;
     border: solid black 1px;
     justify-content: center;
     align-items: center;
-
-
-
+    background-color: #191A23;
+    color: white;
+    cursor: pointer;
 
 }
 
-
-
-
-
-
-
-
-
+.btn-see-all > p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
